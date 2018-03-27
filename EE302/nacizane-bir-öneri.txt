@@ -1,0 +1,3 @@
+Genel olarak feedback dersinde sadece Matlab'a baðlý kalmayýn. Verilen ödevleri Simulink'te de simule edin. Mesela 
+P,I,D deðerleriyle oynayýn simscopela (simulink'te sink kýsmýnýn altýnda) verileri Matlab workspacesine taþýyýn. Ayný
+grafiðe çizdirin falan. Güzel program kurcalayýn bence.
