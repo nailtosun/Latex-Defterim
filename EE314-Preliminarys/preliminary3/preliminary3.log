@@ -1,0 +1,265 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.2.23)  26 MAR 2018 06:08
+entering extended mode
+**./preliminary3.tex
+(preliminary3.tex
+LaTeX2e <2017-04-15>
+Babel <3.17> and hyphenation patterns for 75 language(s) loaded.
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\report.cls"
+Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size11.clo"
+File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count88
+\float@exts=\toks15
+\float@box=\box26
+\@float@everytoks=\toks16
+\@floatcapt=\box27
+) (preliminary3.aux
+
+LaTeX Warning: Label `fig:zero' multiply defined.
+
+
+LaTeX Warning: Label `my-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:zero' multiply defined.
+
+
+LaTeX Warning: Label `my-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:zero' multiply defined.
+
+
+LaTeX Warning: Label `fig:zero' multiply defined.
+
+
+LaTeX Warning: Label `fig:zero' multiply defined.
+
+
+LaTeX Warning: Label `my-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:zero' multiply defined.
+
+
+LaTeX Warning: Label `fig:zero' multiply defined.
+
+
+LaTeX Warning: Label `fig:zero' multiply defined.
+
+
+LaTeX Warning: Label `fig:zero' multiply defined.
+
+)
+\openout1 = `preliminary3.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+ ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count89
+\scratchdimen=\dimen105
+\scratchbox=\box28
+\nofMPsegments=\count90
+\nofMParguments=\count91
+\everyMPshowfont=\toks17
+\MPscratchCnt=\count92
+\MPscratchDim=\dimen106
+\MPnumerator=\count93
+\makeMPintoPDFobject=\count94
+\everyMPtoPDFconversion=\toks18
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
+Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 8.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 8.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 8.
+ [1
+
+{C:/Users/nailt/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+<halfadder.png, id=7, 316.18124pt x 167.87718pt>
+File: halfadder.png Graphic file (type png)
+<use halfadder.png>
+Package pdftex.def Info: halfadder.png  used on input line 11.
+(pdftex.def)             Requested size: 360.0pt x 191.15656pt.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 20.
+<halfsub.png, id=9, 309.40594pt x 142.28156pt>
+File: halfsub.png Graphic file (type png)
+<use halfsub.png>
+Package pdftex.def Info: halfsub.png  used on input line 30.
+(pdftex.def)             Requested size: 360.0pt x 165.56342pt.
+ [1 <./halfadder.png>]
+<fulladder.png, id=15, 590.205pt x 316.93407pt>
+File: fulladder.png Graphic file (type png)
+<use fulladder.png>
+Package pdftex.def Info: fulladder.png  used on input line 49.
+(pdftex.def)             Requested size: 360.0pt x 193.31982pt.
+<fulladder1.png, id=16, 662.475pt x 361.35pt>
+File: fulladder1.png Graphic file (type png)
+<use fulladder1.png>
+Package pdftex.def Info: fulladder1.png  used on input line 70.
+(pdftex.def)             Requested size: 360.0pt x 196.36118pt.
+
+[2 <./halfsub.png> <./fulladder.png>]
+<fourbitadder.png, id=22, 641.39626pt x 328.97906pt>
+File: fourbitadder.png Graphic file (type png)
+<use fourbitadder.png>
+Package pdftex.def Info: fourbitadder.png  used on input line 77.
+(pdftex.def)             Requested size: 360.0pt x 184.64868pt.
+ [3 <./fulladder1.png>]
+<design.png, id=27, 760.34062pt x 317.68687pt>
+File: design.png Graphic file (type png)
+<use design.png>
+Package pdftex.def Info: design.png  used on input line 84.
+(pdftex.def)             Requested size: 360.0pt x 150.41808pt.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 90.
+
+<bos.jpg, id=28, 1532.72626pt x 550.055pt>
+File: bos.jpg Graphic file (type jpg)
+<use bos.jpg>
+Package pdftex.def Info: bos.jpg  used on input line 112.
+(pdftex.def)             Requested size: 360.0pt x 129.1874pt.
+[4 <./fourbitadder.png> <./design.png>]
+<boos.jpg, id=34, 1606.0pt x 166.6225pt>
+File: boos.jpg Graphic file (type jpg)
+<use boos.jpg>
+Package pdftex.def Info: boos.jpg  used on input line 118.
+(pdftex.def)             Requested size: 360.0pt x 37.3486pt.
+<sim.png, id=35, 500.62032pt x 143.03438pt>
+File: sim.png Graphic file (type png)
+<use sim.png>
+Package pdftex.def Info: sim.png  used on input line 123.
+(pdftex.def)             Requested size: 360.0pt x 102.86024pt.
+<boran.png, id=36, 488.57532pt x 186.6975pt>
+File: boran.png Graphic file (type png)
+<use boran.png>
+Package pdftex.def Info: boran.png  used on input line 128.
+(pdftex.def)             Requested size: 360.0pt x 137.56712pt.
+ [5 <./bos.jpg> <./boos.jpg>] [6 <./sim.png> <./boran.png>] (preliminary3.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 1566 strings out of 493303
+ 22158 string characters out of 3138856
+ 79931 words of memory out of 3000000
+ 5118 multiletter control sequences out of 15000+200000
+ 7591 words of font info for 27 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 41i,9n,25p,281b,221s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Pro
+gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program File
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on preliminary3.pdf (7 pages, 431597 bytes).
+PDF statistics:
+ 57 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
+
