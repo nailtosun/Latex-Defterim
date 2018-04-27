@@ -6,92 +6,15 @@
 \usepackage{amsmath}
 \usepackage{color}
 \definecolor{lightgray}{gray}{0.9}
-\title{EE302 Homework 1}
+\title{EE302 Homework 3}
 \date{2018\\ March}
 \author{Nail Tosun - 2094563 -Section 5\\ Electric and Electronic Engineering Departmant, METU}
 \begin{document}
 \maketitle
-1)
-
-a)
-\begin{table}[H]
-\centering
-\caption{Routh-Hurwitz Table for part-a}
-\label{my-label}
-\begin{tabular}{llll}
-$s^3$ & \multicolumn{1}{c}{1}  & \multicolumn{1}{c}{10}  & \multicolumn{1}{c}{0} \\
-$s^2$ & \multicolumn{1}{c}{20} & \multicolumn{1}{c}{400} & \multicolumn{1}{c}{0} \\
-$s$   & -10                    & 0                       & 0                     \\
-1     & 400                    & 0                       &                      
-\end{tabular}
-\end{table}
-There are two positive root therefore system is unstable.
-b)
-
-\begin{table}[H]
-\centering
-\caption{Routh-Hurwitz Table for part-b}
-\label{my-label}
-\begin{tabular}{llll}
-$s^5$ & \multicolumn{1}{c}{1} & \multicolumn{1}{c}{2} & \multicolumn{1}{c}{3} \\
-$s^4$ & \multicolumn{1}{c}{3} & \multicolumn{1}{c}{6} & \multicolumn{1}{c}{1} \\
-$s^3$   & $\epsilon=0.01$                 & 2.67                  & 0                     \\
-$s^2$     & -794                  & 1                     & 0                     \\
-$s$   & 2.67                  & 1                     & 0                     \\
-1  & 1                     & 0                     & 0                    
-\end{tabular}
-\end{table}
-There are two positive root therefore system is unstable.
-
-c)
-\begin{table}[H]
-\centering
-\caption{Routh-Hurwitz Table for part-c}
-\label{my-label}
-\begin{tabular}{llll}
-$s^4$ & \multicolumn{1}{c}{1}  & \multicolumn{1}{c}{2}  & \multicolumn{1}{c}{-8} \\
-$s^3$ & \multicolumn{1}{c}{-1} & \multicolumn{1}{c}{-4} & \multicolumn{1}{c}{0}  \\
-$s^2$ & -2                     & -4                     & 0                      \\
-$s$   & 4                      & 0                      &                        \\
-1     & -8                     &                        &                       
-\end{tabular}
-\end{table}
-There are three positive root therefore system is unstable.
-\begin{table}[H]
-\centering
-\caption{Routh-Hurwitz Table for part-d}
-\label{my}
-\begin{tabular}{llll}
-$s^5$ & \multicolumn{1}{c}{1} & \multicolumn{1}{c}{16} & \multicolumn{1}{c}{100} \\
-$s^4$ & \multicolumn{1}{c}{2} & \multicolumn{1}{c}{32} & \multicolumn{1}{c}{200} \\
-$s^3$ & 0                     & 0                      & 0                       \\
-$s^2$ &                       &                        &                         \\
-$s$   &                       &                        &                         \\
-1     &                       &                        &                        
-\end{tabular}
-\end{table}
-Entire row is zero. Therefore i take derivative of upward equation and added its coefficents to zero row.
-\[\frac{d}{ds}(2s^4+32s^2+200)\]
-\[8s^3+64s\]
-then new table become;
-\begin{table}[H]
-\centering
-\caption{Routh-Hurwitz Table for part-d ver2}
-\label{my-lael}
-\begin{tabular}{llll}
-$s^5$ & \multicolumn{1}{c}{1} & \multicolumn{1}{c}{16} & \multicolumn{1}{c}{100} \\
-$s^4$ & \multicolumn{1}{c}{1} & \multicolumn{1}{c}{8}  & \multicolumn{1}{c}{0}   \\
-$s^3$ & 8                     & 100                    & 0                       \\
-$s^2$ & -4.5                  & 0                      & 0                       \\
-$s$   & 100                   & 0                      & 0                       \\
-1     & 0                     &                        &                        
-\end{tabular}
-\end{table}
-
-4)
-Matlab script to finding roots;
 
 
+\subsection*{4}
+\subsubsection*{a)}
 
 \lstset{
     showstringspaces=false,
@@ -137,6 +60,7 @@ $\lambda_2= 0,23 + 4,41i$
 
 $\lambda_3= 0,23 - 4,41i$
 
+I expect two positive pole from routh-hurwitz test. Result make sense.
 \vspace{5mm}
 
 polynomial 2 has roots at
@@ -151,6 +75,7 @@ $\lambda_4=-0,28 + 0,34i$
 
 $\lambda_5=-0,28 - 0,34i$
 
+From Routh-Hurwitz test i expect 2 positive pole. Matlab result consistent.
 \vspace{5mm}
 
 polynomial 3 has roots at
@@ -163,6 +88,7 @@ $\lambda_3=-2.00i$
 
 $\lambda_4=-1.00$
 
+From Routh-Hurwitz test i expect two poles on jw axis and one pole at RHP. Matlab results make sense.
 \vspace{5mm}
 
 polynomial 4 has roots at
@@ -176,4 +102,31 @@ $\lambda_3=-1,00 + 3,00i$
 $\lambda_4=-1,00 - 3,00i$
 
 $\lambda_5=-2,00$
+
+From Routh-Hurwitz test i expect two RHP poles with quadrantal pair at LHP. Matlab result are same.
+\begin{figure}[H]
+  \includegraphics[scale=0.7, center]{3a}
+  \caption{3a}
+  \label{fig:zero}
+\end{figure}
+\begin{figure}[H]
+  \includegraphics[scale=0.7, center]{3b}
+  \caption{3b}
+  \label{fig:zero}
+\end{figure}
+\begin{figure}[H]
+  \includegraphics[scale=0.7, center]{3c}
+  \caption{3c}
+  \label{fig:zero}
+\end{figure}
+\begin{figure}[H]
+  \includegraphics[scale=0.7, center]{4}
+  \caption{root locus}
+  \label{fig:zero}
+\end{figure}
+\begin{figure}[H]
+  \includegraphics[scale=0.7, center]{4b}
+  \caption{step response}
+  \label{fig:zero}
+\end{figure}
 \end{document}

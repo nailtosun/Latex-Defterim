@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.2.23)  12 APR 2018 06:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6600 64-bit) (preloaded format=pdflatex 2018.2.23)  22 APR 2018 23:07
 entering extended mode
 **./hw3.tex
 (hw3.tex
@@ -195,10 +195,16 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 Package color Info: Driver file: pdftex.def on input line 147.
 ) (hw3.aux
 
-LaTeX Warning: Label `my-label' multiply defined.
+LaTeX Warning: Label `fig:zero' multiply defined.
 
 
-LaTeX Warning: Label `my-label' multiply defined.
+LaTeX Warning: Label `fig:zero' multiply defined.
+
+
+LaTeX Warning: Label `fig:zero' multiply defined.
+
+
+LaTeX Warning: Label `fig:zero' multiply defined.
 
 )
 \openout1 = `hw3.aux'.
@@ -281,35 +287,66 @@ G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
 \c@lstlisting=\count117
- [1
 
-{C:/Users/nailt/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2015/06/04 1.6 listings language file
-) [2] [3]
-(hw3.aux)
+) [1
+
+{C:/Users/nailt/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+<3a.png, id=14, 869.49844pt x 468.24937pt>
+File: 3a.png Graphic file (type png)
+<use 3a.png>
+Package pdftex.def Info: 3a.png  used on input line 108.
+(pdftex.def)             Requested size: 608.64476pt x 327.77231pt.
+<3b.png, id=16, 889.07156pt x 469.755pt>
+File: 3b.png Graphic file (type png)
+<use 3b.png>
+Package pdftex.def Info: 3b.png  used on input line 113.
+(pdftex.def)             Requested size: 622.34586pt x 328.82626pt.
+ [2]
+<3c.png, id=20, 855.94781pt x 469.00218pt>
+File: 3c.png Graphic file (type png)
+<use 3c.png>
+Package pdftex.def Info: 3c.png  used on input line 118.
+(pdftex.def)             Requested size: 599.1594pt x 328.29929pt.
+ [3 <./3a.png>]
+<4.png, id=25, 679.03688pt x 401.24907pt>
+File: 4.png Graphic file (type png)
+<use 4.png>
+Package pdftex.def Info: 4.png  used on input line 123.
+(pdftex.def)             Requested size: 475.32257pt x 280.87242pt.
+
+[4 <./3b.png>]
+<4b.png, id=30, 658.71094pt x 402.00188pt>
+File: 4b.png Graphic file (type png)
+<use 4b.png>
+Package pdftex.def Info: 4b.png  used on input line 128.
+(pdftex.def)             Requested size: 461.09451pt x 281.39938pt.
+ [5 <./3c.png>] [6 <./4.png>] [7 <./4b.png>] (hw3.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4179 strings out of 493303
- 59244 string characters out of 3138856
- 151019 words of memory out of 3000000
- 7668 multiletter control sequences out of 15000+200000
- 8657 words of font info for 32 fonts, out of 3000000 for 9000
+ 4207 strings out of 493303
+ 59522 string characters out of 3138856
+ 148408 words of memory out of 3000000
+ 7688 multiletter control sequences out of 15000+200000
+ 9272 words of font info for 34 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,10n,76p,272b,1053s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Fil
-es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/font
-s/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
-blic/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
-fonts/cm/cmtt10.pfb>
-Output written on hw3.pdf (3 pages, 85065 bytes).
+ 41i,10n,76p,272b,1057s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.
+pfb>
+Output written on hw3.pdf (7 pages, 273523 bytes).
 PDF statistics:
- 40 PDF objects out of 1000 (max. 8388607)
+ 73 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
