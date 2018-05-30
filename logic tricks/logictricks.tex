@@ -1,0 +1,123 @@
+\documentclass[11pt]{article}
+\usepackage{graphicx}
+\usepackage[export]{adjustbox}
+\usepackage{float}
+\usepackage{amsmath}
+\usepackage{siunitx}
+\title{Logic Tricks}
+\date{2018\\ March}
+\author{Nail Tosun \\ Electric and Electronic Engineering Departmant, METU}
+\begin{document}
+\maketitle
+\section*{Binary Numbers}
+\subsection*{r's complement}
+General formula is following;
+\[r^n-N\]
+r is radix n is integer side length and N is the number that you complement.
+\subsubsection*{Shortcut}
+Starting from the right to left;
+
+Leave all zeros no change;
+
+After first zero r-$digit_{afterzero}$
+
+Then (r-1) - all digits.
+
+\subsection*{r-1 complement}
+General formula 
+\[r^n-r^{-m}-N\]
+\subsubsection*{Shortcut}
+Subtract all the digits with r-1
+\subsection*{2's complement}
+\subsubsection*{Shortcut}
+Switch all the bits and add 1 or
+
+Keep the same with all zero (right to left). After first non-zero term (don't change first non-zero term), toggle each bit.
+\subsection*{1's complement}
+\subsubsection*{Shortcut}
+Just switch all the bits.
+
+
+\subsection*{Signed magnitude convention}
+\subsubsection*{Signed Magnitude}
+First leftmost bit is sign bit other registers indicate magnitude.
+\subsubsection*{Signed 1's complement}
+First leftmost bit is sign bit.
+If first leftmost bit is zero (indicates positive)
+
+Other bits represents +number
+
+If first leftmost bit is one (indicates negative)
+
+Put a minus sign
+
+Takes 1's complement.
+
+\subsubsection*{Signed 2's complement}
+First leftmost bit is sign bit.
+If first leftmost bit is zero (indicates positive)
+
+Other bits represents +number
+
+If first leftmost bit is one (indicates negative)
+
+Put a minus sign
+
+Takes 2's complement.
+There is one representation for zero.
+
+\subsubsection*{Boundaries}
+3 bit Signed 1's complement and magnitude methods
+\[-3\leq X \leq 3\] 
+2's complement method has extra one number(due to only has one zero.)
+\[-4 \leq X \leq 3\]
+
+\subsection*{Arithmetic addition in 2's complement}
+Take both number 2's complement.
+
+Sum it up. 
+
+Fuck the carry bit there is no information here. Right of the carry bit is magnitude bit. Put your sign if it is 1 (indicates negative) take 2's complement to find its absolute value.
+
+\subsection*{Overflow}
+Sign bits of the both operand are same and result sign is different. It indicates overflow.
+
+Overflow can happen if both operands sign are same.
+
+\subsection*{Extension of the bits}
+
+Copy the sign bit and paste left bits. 
+001 's extension the 6 bit is 000001;
+100 's extension to 6 bit is  111100;
+\subsection*{Excess 3}
+BCD+3
+
+Self complementing
+
+\subsection*{Parities}
+Finding the error in data transfer
+\subsubsection*{Odd parity}
+Add one bit to ensure sum of all bits odd
+\subsubsection*{Even parity}
+Add one bit to ensure sum of all bits even
+
+\section*{Substraction with complentary}
+\subsection*{Substraction with r's complement}
+Operation of $(M)_r-(N)_r$ where M and N are unsigned integer.
+
+Write N's r's complement and add with M;
+\[M+r^n-N\]
+if $M>N$ sum is produces carry bit. Ignore the carry bit. Sum is your result.
+
+if $N>M$ sum is \textbf{don't produce carry bit} so take r's complement of the result.
+
+Don't forget to put minus sign.
+\subsection*{Substraction with r-1 complement}
+Take the cıkarın operand r-1 complement.
+
+Sum it up 
+
+If there is a \textbf{carry out} this indicates number is \textbf{positive}. add carry out to least significant bit. 
+
+If there is \textbf{no carry out}. It means the number is negative. Take ones complement
+\end{document}
